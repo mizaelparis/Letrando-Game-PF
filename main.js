@@ -121,7 +121,7 @@ const iniciarJogo = () => {
               "ATALHO", "ATOLAR", "BARATA", "BARATO", "BATATA","BOLOTA", 
               "BROTAR", "TALHAR", "TOALHA", "TORRAR", "TRALHA", 
               "TRATAR", "TRATOR", "ABORTAR", "ARROTAR",
-              "BATALHA", "BATALHAR", "TÁRTARO", "TRABALHAR"
+              "BATALHA", "BATALHAR", "TARTARO", "TRABALHAR"
             ],
             letraObrigatoria: 'T',
         },
