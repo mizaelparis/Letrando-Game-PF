@@ -111,17 +111,45 @@ const iniciarJogo = () => {
     const fases = [
         {
             letras: ["A", "B", "O", "R", "T", "L", "H"],
-            palavrasValidas: ["TOLO", "BARALHO", "TRATOR", "TATO", "ABORTO", "BOTA", "TALHO", "TORTA", "LATA", "RATO", "TOALHA", "TRABALHO", "BARATO", "TRALHA", "BOTAO", "BOLHA", "HORTA", "ORBITA", "ORBITAL", "ROTATORIA", "ROTULO", "ROTULAR", "BARATA", "TALHADO", "TORTO", "BOTAR", "ROTA"],
+            palavrasValidas: [
+              "TRABALHO", "ALTA", "ALTO", "ATOR", "BATA", "BOTA", "BOTO", "LATA", 
+              "LOTA", "RATO", "ROTA", "TABA", 
+              "TALO", "TARA", "TATO", "TOLA", "TOLO", "ALTAR", 
+              "ATOLA", "BOATO", "BOTAR", "BROTA", "BROTO", "HORTA",
+              "LOTAR", "TALHA", "TALHO", "TORRA", "TORTA", "TORTO", 
+              "TRATO", "ABORTA", "ABORTO", "ARROTA", "ARROTO", 
+              "ATALHO", "ATOLAR", "BARATA", "BARATO", "BATATA","BOLOTA", 
+              "BROTAR", "TALHAR", "TOALHA", "TORRAR", "TRALHA", 
+              "TRATAR", "TRATOR", "ABORTAR", "ARROTAR",
+              "BATALHA", "BATALHAR", "TÁRTARO", "TRABALHAR"
+            ],
             letraObrigatoria: 'T',
         },
         {
             letras: ["M", "A", "R", "T", "E", "O", "S"],
-            palavrasValidas: ["MARTE", "METRO", "MESTRE", "ASTRO", "ESTAR", "TOMAR", "RESTO", "AROMA", "TERRA", "RASTRO", "MORTE", "AMOSTRA", "SERRA", "MOSTRAR", "ROSTO", "RAMO", "SORTE", "TRATO", "MAESTRO", "TRAMA", "ARTE", "TESTE", "TESTA"],
+            palavrasValidas: [
+              "AMAR", "AMARRAR", "AMOR", "AMORA", "AMOROSO", "AMOSTRA", "ARARA", "ARMA", 
+              "ARMAR", "AROMA", "ARROTAR", "ARROTO", "ARTE", "ASTRO", "ATOR", "ATRASAR", 
+              "ATRASO", "ERRAR", "ERRO", "ESTAR", "MAESTRO", "MARRETA", "MARROM", "MARTE", 
+              "MATAR", "MESTRE", "METRO", "MORAR", "MORRER", "MORRO", "MORTA", "MORTE", 
+              "MORTO", "MOSTRAR", "MOTOR", "ORAR", "OSTRA", "RAMO", "RARO", "RASO", 
+              "RATO", "REMAR", "REMO", "RESTAR", "RESTO", "RETA", "RETO", "RETRATO", 
+              "ROSA", "ROSTO", "ROTA", "ROTEAR", "SERRA", "SOMAR", "SORO", "SORTE", 
+              "TERRA", "TERREMOTO", "TERROR", "TOMAR", "TORRE", "TORTA", "TORTO", "TRAMA", 
+              "TRATAR", "TRATO", "TRATOR", "TREMER", "TREMOR", "TRETA"
+            ],
             letraObrigatoria: 'R',
         },
         {
             letras: ["A", "E", "L", "S", "T", "V", "O"],
             palavrasValidas: ["VASO", "SELO", "SALTO", "ESTALO", "VESTE", "SOL", "SETA", "SALVO", "SELVA", "SOLTO", "VOSSO", "LEVAS", "VASTO","TESTA", "SELA", "LESTE","TESLA"],
+            palavrasValidas: [
+              "ASSALTO", "AVESSO", "ESSA", "ESSE", "ESTA", "ESTALO", "ESTAVA", "ESTE", 
+              "LESA", "LESO", "LESTE", "OSSO", "SALA", "SALETA", "SALTO", "SALVA", 
+              "SALVO", "SELA", "SELO", "SELVA", "SETA", "SETE", "SOLA", "SOLO", 
+              "SOLTA", "SOLTO", "SOVA", "TESE", "TESO", "TOSSE", "TOSTA", "VALSA", 
+              "VASO", "VASTA", "VASTO", "VESTE", "VOLTASTE", "TESLA",
+            ],
             letraObrigatoria: 'S',
         }
     ];
